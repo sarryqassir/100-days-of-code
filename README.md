@@ -3,8 +3,12 @@
 ## Why?
 This will give me some structure. I find coding/ learning fun, and this seems like a nice way to stay consistent. 
 
+## What will I be doing?
+- Courses, projects, tutorials, anything that makes me write some code.
+- At least 1 leetcode question a day
+
 ## What happens after?
-I'll be taking what I learn, along with the projects I've built, and looking for opportunities to apply these skills.
+I'll be taking what I learn, along with the projects I've built, and looking for opportunities to apply these skills. 
 
 ## Contents
 
