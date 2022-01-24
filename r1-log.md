@@ -6,6 +6,8 @@ The log of my #100DaysOfCode challenge. Started on [Sunday, January 23, 2022].
 
 ### R1D0
 
-Finishing up FCC js algos and data structures
+Finished FCC js basic algo scripting and started OOP section
+
+did 2 leet code questions, valid parantheses and valid capitalization 
 
 ### R1D1
