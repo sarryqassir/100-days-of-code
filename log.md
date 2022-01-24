@@ -12,7 +12,17 @@ I'm not too attached to this motivation grindset stuff, but having some structur
 
 ### Day 0: January 23, 2022, Sunday
 
+**Today's Progress**:
+Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting) and started on [OOP](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming). I forgot to save any of my solutions and FCC doesn't save anything after submission, so no examples from there.
+
+**Concepts**: Went over big O notation basics again, I'll be keeping it in mind in some of my solutions.
+
+**Leet Code**: [Detect Capital 🟢](https://leetcode.com/problems/detect-capital/) This problem was easy but took me a long time. Writing pseudo-code would have helped a lot, lesson learned. I will also be timing myself in the future.
+
+
 <!--
+- [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
+🔴🟠🟡🟢🔵🟣🟤⚫⚪🔘🛑⭕
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
