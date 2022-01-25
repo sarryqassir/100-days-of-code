@@ -10,6 +10,12 @@ I'm not too attached to this motivation grindset stuff, but having some structur
 
 **Main Goal**: Start applying for jobs at the end of the 100 days regardless of where I'm at.
 
+**Adapting Goals**:
+- At least 1 leet code question a day
+  - Do questions in python to learn it
+- Review on-the-job and interview skills/ concepts.
+  - Books/ videos + mock interviews/ related conversation
+
 ### Day 0: January 23, 2022, Sunday
 
 **Today's Progress**:
@@ -21,7 +27,14 @@ Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/java
 
 ### Day 1: January 24, 2022, Monday
 
+**Progress**: Finished FCC OOP
+
+**Thoughts**: I'm already learning OOP in C++ through school, but it should still prove useful to learn the basics of OOP in JS, since React used class components for a long time, and it is still popular in a lot of documentation and code bases. On top of that, it's just nice to know what OOP is like in other languages, and it furthered my knowledge about the concept as a whole to see how the four pillars are applied in JS compared to C++, I'd like to try some OOP in another language, like python.
+
 **Leet Code**: [Roman to Integer🟢](https://leetcode.com/problems/roman-to-integer/) Time: ~40 Minutes | Language: JS | I used an object with the roman numerals as keys and their respective numeric values as values. I split the string and iterated through it, subtracting from the total if the previous value < the next value, and adding otherwise.
+
+
+### Day 2: January 24, 2022, Tuesday
 
 <!--
 - [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
