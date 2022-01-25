@@ -11,3 +11,9 @@ Finished FCC js basic algo scripting and started OOP section
 did 2 leet code questions, valid parantheses and valid capitalization 
 
 ### R1D1
+
+Finished FCC OOP section
+
+Roman to int leetcode
+
+### R1D2
