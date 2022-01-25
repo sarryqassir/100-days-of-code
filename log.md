@@ -17,8 +17,11 @@ Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/java
 
 **Concepts**: Went over big O notation basics again, I'll be keeping it in mind in some of my solutions.
 
-**Leet Code**: [Detect Capital 🟢](https://leetcode.com/problems/detect-capital/) This problem was easy but took me a long time. Writing pseudo-code would have helped a lot, lesson learned. I will also be timing myself in the future.
+**Leet Code**: [Detect Capital🟢](https://leetcode.com/problems/detect-capital/) This problem was easy but took me a long time. Writing pseudo-code would have helped a lot, lesson learned. I will also be timing myself in the future.
 
+### Day 1: January 24, 2022, Monday
+
+**Leet Code**: [Roman to Integer🟢](https://leetcode.com/problems/roman-to-integer/) Time: ~40 Minutes | Language: JS | I used an object with the roman numerals as keys and their respective numeric values as values. I split the string and iterated through it, subtracting from the total if the previous value < the next value, and adding otherwise.
 
 <!--
 - [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
