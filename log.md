@@ -34,7 +34,16 @@ Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/java
 **Leet Code**: [Roman to Integer🟢](https://leetcode.com/problems/roman-to-integer/) Time: ~40 Minutes | Language: JS | I used an object with the roman numerals as keys and their respective numeric values as values. I split the string and iterated through it, subtracting from the total if the previous value < the next value, and adding otherwise.
 
 
-### Day 2: January 24, 2022, Tuesday
+### Day 2: January 25, 2022, Tuesday
+
+**Progress**: Finished FCC [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming) section
+
+**Thoughts**: The challenges were mostly based on standard array functions like map/filter/reduce, which I already understood, but the concept of functional programming is still important to consider, so going over the concepts such as pure functions and best practices will likely still help me.
+
+**Leet Code**: Was busy with school/irl, will make up for it tomorrow.
+
+
+### Day 3: January 26, 2022, Wednesday
 
 <!--
 - [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
