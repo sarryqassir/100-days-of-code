@@ -1,21 +1,5 @@
 # 100 Days Of Code - Log
 
-## Where I'm at
-
-I'm going to school full time, but I want to futher my knowledge and practice programming. I started by making a personal website with react, which was my first personal project, and it taught me a lot about react, js, and I even learned typescript. The website isn't professional, since my focus was learning, and I'm looking to continue learning and trying things out before I start seriously applying to jobs. I've been trying to consume a lot of content and ask questions to learn more about what's out there, and it's helped a lot.
-
-I started freeCodeCamp two days ago (January 21) mainly to test myself and rememeber the basic content I've learned in school that I'm likely rusty with. I finished the first section on HTML and CSS, but only did one of the projects, since I'm pretty comfortable with HTML and CSS, maybe I'll go back and do the others (probably not). I'm almost finished the [javascript algorithims and data structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course content, as expected, it's mostly stuff I already know from school.
-
-I'm not too attached to this motivation grindset stuff, but having some structure is definately good and I'll be trying to stick with the challenge of coding at least an hour a day for the next 100 days, documenting my progress.
-
-**Main Goal**: Start applying for jobs at the end of the 100 days regardless of where I'm at.
-
-**Adapting Goals**:
-- At least 1 leet code question a day
-  - Do questions in python to learn it
-- Review on-the-job and interview skills/ concepts.
-  - Books/ videos + mock interviews/ related conversation
-
 ### Day 0: January 23, 2022, Sunday
 
 **Today's Progress**:
@@ -29,7 +13,7 @@ Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/java
 
 **Progress**: Finished FCC OOP
 
-**Thoughts**: I'm already learning OOP in C++ through school, but it should still prove useful to learn the basics of OOP in JS, since React used class components for a long time, and it is still popular in a lot of documentation and code bases. On top of that, it's just nice to know what OOP is like in other languages, and it furthered my knowledge about the concept as a whole to see how the four pillars are applied in JS compared to C++, I'd like to try some OOP in another language, like python.
+**Thoughts**: React used class components for a long time, and is still popular in documentation and code bases. Knowing what OOP is like in other languages furthers my knowledge about the concept as a whole. 
 
 **Leet Code**: [Roman to Integer🟢](https://leetcode.com/problems/roman-to-integer/) Time: ~40 Minutes | Language: JS | I used an object with the roman numerals as keys and their respective numeric values as values. I split the string and iterated through it, subtracting from the total if the previous value < the next value, and adding otherwise.
 
@@ -45,6 +29,45 @@ Finished up [basic algorithim scripting](https://www.freecodecamp.org/learn/java
 
 ### Day 3: January 26, 2022, Wednesday
 
+**Progress**: Got started on FCC [Intermediate algorithim scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting)
+
+**Thoughts**: Considering taking a course on data structures and algorithims, since that is what I'm working with when doing leetcode questions, and what I'll need in a lot of interviews in the future.
+
+**Leet Code**: 
+[Valid Mountain Array🟢](https://leetcode.com/problems/valid-mountain-array/) Time: ~45 Minutes | Language: Python | Fun problem, I could have used two while loops, but instead I used a flag. <details><summary>See Solution</summary>
+```py
+class Solution:
+    def validMountainArray(self, arr: List[int]) -> bool:
+        # Avoid reevaluating len more than once
+        N = len(arr);
+        
+        # Validate array
+        if N < 3 or arr[0] > arr[1]:
+            return False;
+        
+        # Flag for change from increasing to decreasing
+        peaked = False;
+        
+        for i in range(N-1):
+            # Not strictly inc/ dec
+            if arr[i] == arr[i+1]:
+                return False;
+            
+            if not peaked:
+                # Looks for change from inc to dec
+                if arr[i] > arr[i+1]:
+                    peaked = True;
+            # Make sure elements are decreasing if peaked
+            elif arr[i] < arr[i+1]:
+                return False;
+        
+        # After valid checks, true if array peaked
+        return peaked;
+```
+</details>
+
+### Day 4: January 27, 2022, Thursday
+  
 <!--
 - [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
 🔴🟠🟡🟢🔵🟣🟤⚫⚪🔘🛑⭕
