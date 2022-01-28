@@ -67,6 +67,15 @@ class Solution:
 </details>
 
 ### Day 4: January 27, 2022, Thursday
+    
+**Progress**: Worked on some FCC, but going to take a break to learn some new technologies for a project. First up is PostgreSQL.
+    
+**Thoughts**: FCC proved to me that I know more than I think I do, so I'm shifting my focus to projects along with learning about data structures and algorithms.
+    
+**Leet Code**: [Palindrome Number🟢](https://leetcode.com/problems/palindrome-number) Time: ~6 minutes | Language: Python | cast to string and checked if == when reversed
+    
+### Day 5: January 28, 2022, Friday
+
   
 <!--
 - [Valid Parentheses 🟢](https://leetcode.com/problems/valid-parentheses/)
